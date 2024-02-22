@@ -36,16 +36,16 @@
         android:layout_width="196dp"
         android:layout_height="102dp"
         android:text="quiz2"
-        app:layout_constraintBottom_toTopOf="@+id/button_quiz3"
+        app:layout_constraintBottom_toTopOf="@+id/button_historique"
         app:layout_constraintTop_toBottomOf="@+id/button_quiz1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button_quiz3"
+        android:id="@+id/button_historique"
         android:layout_width="196dp"
         android:layout_height="102dp"
-        android:text="quiz3"
+        android:text="Historique"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_quiz2"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_TitreResulat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Resultat"
+        android:textSize="48sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <TextView
+        android:id="@+id/textview_Score"
+        android:layout_width="292dp"
+        android:layout_height="28dp"
+        android:fontFamily="monospace"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/button_recommancer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_TitreResulat"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/button_recommancer"
+        android:layout_width="196dp"
+        android:layout_height="102dp"
+        android:text="recommancer"
+        app:layout_constraintBottom_toTopOf="@+id/button_voirReponse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_Score" />
+
+    <Button
+        android:id="@+id/button_voirReponse"
+        android:layout_width="196dp"
+        android:layout_height="102dp"
+        android:text="voir Reponses"
+        app:layout_constraintBottom_toTopOf="@+id/button_retourMenu"
+        app:layout_constraintTop_toBottomOf="@+id/button_recommancer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_retourMenu"
+        android:layout_width="196dp"
+        android:layout_height="102dp"
+        android:text="Menu principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_voirReponse"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

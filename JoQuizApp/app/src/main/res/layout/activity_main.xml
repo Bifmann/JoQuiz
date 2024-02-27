@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:text="JoQuiz"
-        android:textSize="48sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -22,34 +22,26 @@
         app:layout_constraintVertical_bias="0.155" />
 
     <Button
-        android:id="@+id/button_quiz1"
-        android:layout_width="196dp"
-        android:layout_height="102dp"
-        android:text="quiz1"
-        app:layout_constraintBottom_toTopOf="@+id/button_quiz2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview_TitreMenu" />
-
-    <Button
-        android:id="@+id/button_quiz2"
-        android:layout_width="196dp"
-        android:layout_height="102dp"
-        android:text="quiz2"
-        app:layout_constraintBottom_toTopOf="@+id/button_historique"
-        app:layout_constraintTop_toBottomOf="@+id/button_quiz1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/button_historique"
-        android:layout_width="196dp"
-        android:layout_height="102dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Historique"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_quiz2"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_MenuQuiz"
+        android:layout_width="409dp"
+        android:layout_height="514dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_historique"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_TitreMenu"
+        tools:listitem="@layout/item_menu_quiz_layout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

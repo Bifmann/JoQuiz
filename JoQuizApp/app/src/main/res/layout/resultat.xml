@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Resultat">
 
     <TextView
-        android:id="@+id/textview_TitreResulat"
+        android:id="@+id/textview_TitreResultat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
@@ -33,7 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview_TitreResulat"
+        app:layout_constraintTop_toBottomOf="@+id/textview_TitreResultat"
         app:layout_constraintVertical_bias="0.317" />
 
     <Button

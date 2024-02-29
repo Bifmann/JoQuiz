@@ -1,0 +1,177 @@
+<mxfile host="app.diagrams.net" modified="2024-02-29T13:40:39.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="YrXEIs3G1jciWbmmBRsE" version="23.1.5" type="device">
+  <diagram name="Page-1" id="Lv_ohLM1eShK9Vs1BQyF">
+    <mxGraphModel dx="2353" dy="1211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-2" value="Départ" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="52" y="135" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-4" value="Menu principale s&#39;affiche" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-10" value="non" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-5" target="QOv__IoL_4pgsVMGiqMi-6">
+          <mxGeometry x="-0.08" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-5" value="Quiz Cliqué ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="115" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-6" value="Historique cliqué" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592" y="115" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-2" target="QOv__IoL_4pgsVMGiqMi-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="321" y="355" as="sourcePoint" />
+            <mxPoint x="371" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-4" target="QOv__IoL_4pgsVMGiqMi-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="381" y="345" as="sourcePoint" />
+            <mxPoint x="431" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-11" value="non" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-6" target="QOv__IoL_4pgsVMGiqMi-4">
+          <mxGeometry x="-0.952" y="-13" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="641" y="105" as="sourcePoint" />
+            <mxPoint x="691" y="55" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="652" y="95" />
+              <mxPoint x="591" y="95" />
+              <mxPoint x="271" y="95" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-12" value="Affiche Page question" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-13" value="oui" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-5" target="QOv__IoL_4pgsVMGiqMi-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451" y="245" as="sourcePoint" />
+            <mxPoint x="661" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="335" as="sourcePoint" />
+            <mxPoint x="441" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-17" value="Réponse Cliquée ?" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="381" y="375" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-18" value="non" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-17" target="QOv__IoL_4pgsVMGiqMi-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="551" y="455" as="sourcePoint" />
+            <mxPoint x="601" y="405" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="541" y="435" />
+              <mxPoint x="541" y="385" />
+              <mxPoint x="541" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-20" value="Dernière question répondue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="535" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-21" value="oui" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry y="-19" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440.58" y="495" as="sourcePoint" />
+            <mxPoint x="440.58" y="535" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-23" target="QOv__IoL_4pgsVMGiqMi-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441" y="515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="572" y="745" />
+              <mxPoint x="572" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-23" value="Affiche prochaine question" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-24" value="non" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-20" target="QOv__IoL_4pgsVMGiqMi-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="272" y="675" as="sourcePoint" />
+            <mxPoint x="322" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-25" value="Affiche scène resultat" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="381" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-27" value="oui" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-20" target="QOv__IoL_4pgsVMGiqMi-25">
+          <mxGeometry x="-0.2206" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="192" y="585" as="sourcePoint" />
+            <mxPoint x="242" y="535" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="312" y="595" />
+              <mxPoint x="312" y="865" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-28" value="Affiche historique" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-41" value="non" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-29" target="QOv__IoL_4pgsVMGiqMi-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-29" value="Retour cliqué" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="592" y="375" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651.41" y="335" as="sourcePoint" />
+            <mxPoint x="651.41" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-32" value="oui" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651.41" y="235" as="sourcePoint" />
+            <mxPoint x="651.41" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-33" value="oui" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-29" target="QOv__IoL_4pgsVMGiqMi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="786" y="395" as="sourcePoint" />
+            <mxPoint x="836" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="776" y="435" />
+              <mxPoint x="776" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-39" value="oui" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-34" target="QOv__IoL_4pgsVMGiqMi-4">
+          <mxGeometry x="-0.9151" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-34" value="Bouton continuer cliqué ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="955" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-25" target="QOv__IoL_4pgsVMGiqMi-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342" y="1115" as="sourcePoint" />
+            <mxPoint x="392" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QOv__IoL_4pgsVMGiqMi-38" value="non" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QOv__IoL_4pgsVMGiqMi-34" target="QOv__IoL_4pgsVMGiqMi-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="562" y="835" as="sourcePoint" />
+            <mxPoint x="612" y="785" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="542" y="1015" />
+              <mxPoint x="542" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

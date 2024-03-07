@@ -25,7 +25,7 @@ class MenuQuizAdapter(
     override fun onBindViewHolder(holder: MenuQuizAdapter.ItemViewHolder, position: Int) {
         val quiz: QuizList = data[position]
 
-        holder.quizName.text = quiz.name
+        holder.quizName.text = quiz.title
     }
 
     override fun getItemCount(): Int {

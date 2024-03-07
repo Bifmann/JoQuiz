@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         buttonHistorique = findViewById(R.id.button_historique)
 
         // Initialize QuizRepository using lateinit
-        quizRepository = QuizRepository()
+        quizRepository = QuizRepository(this)
 
         // Setup RecyclerView
         setupRecyclerView()

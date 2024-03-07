@@ -1,13 +1,35 @@
 package com.example.joquiz
 
-class QuizRepository {
+import android.content.Context
+import org.xmlpull.v1.XmlPullParser
+
+class QuizRepository (private val context: Context){
     private val quizList = mutableListOf<QuizList>()
 
     init {
-        quizList.add(QuizList("Quiz 1"))
-        quizList.add(QuizList("JOSHUA 72"))
-        quizList.add(QuizList("Quiz 3"))
+        loadQuizzesFromXML()
     }
+
+    private fun loadQuizzesFromXML() {
+        try {
+            val parser: XmlPullParser = context.resources.getXml(R.xml.quizzes)
+            var eventType = parser.eventType
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                if (eventType == XmlPullParser.START_TAG && parser.name == "quiz") {
+                    parser.nextTag() // Avance au tag <title>
+                    if (parser.name == "title") {
+                        parser.next() // Avance au texte du titre
+                        val title = parser.text
+                        addQuiz(QuizList(title))
+                    }
+                }
+                eventType = parser.next()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
 
     fun getAllQuizzes(): List<QuizList> {
         return quizList.toList()
@@ -17,8 +39,8 @@ class QuizRepository {
         quizList.add(quiz)
     }
 
-    fun removeQuiz(quiz: QuizList) {
-        quizList.remove(quiz)
-    }
+    //fun removeQuiz(quiz: QuizList) {
+    //    quizList.remove(quiz)
+    //}
 }
 

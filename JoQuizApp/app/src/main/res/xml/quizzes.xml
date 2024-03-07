@@ -1,0 +1,158 @@
+<!-- res/xml/quizzes.xml -->
+<quizzes>
+    <quiz>
+        <title>Cool Joshua fact</title>
+        <questions>
+            <question>
+                <text>Quel age a joshua ?</text>
+                <true>8,4 siecle</true>
+                <false1>Baby Joshua</false1>
+                <false2>19 ans</false2>
+                <false3>THE VOID</false3>
+            </question>
+            <question>
+                <text>Combien de dégats inflige un joshua ?</text>
+                <true>0,8 fois la puissance d'eddy</true>
+                <false1>32 fois la puissance d'eddy</false1>
+                <false2>0,2 fois la puissance d'eddy</false2>
+            </question>
+            <question>
+                <text>Un joshua arrive sur vous a mach20 que faite vous ?</text>
+                <true>Je lance 5 centimes par terre pour le distraire</true>
+                <false1>J'essaye de dodge le joshua</false1>
+                <false2>J'essaye de m'excuser</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Template</title>
+        <questions>
+            <question>
+                <text>Template</text>
+                <answer>Template</answer>
+                <false1>Template</false1>
+                <false2>Template</false2>
+            </question>
+        </questions>
+    </quiz><quiz>
+    <title>hihi</title>
+    <questions>
+        <question>
+            <text>Template</text>
+            <answer>Template</answer>
+            <false1>Template</false1>
+            <false2>Template</false2>
+        </question>
+    </questions>
+</quiz>
+</quizzes>

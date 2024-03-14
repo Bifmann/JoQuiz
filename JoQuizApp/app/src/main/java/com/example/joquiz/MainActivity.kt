@@ -1,16 +1,19 @@
 package com.example.joquiz
 
 import MenuQuizAdapter
+import RecyclerViewEvent
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), RecyclerViewEvent {
     private lateinit var recyclerView: RecyclerView
     private lateinit var buttonHistorique: Button
     private lateinit var quizRepository: QuizRepository
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,21 +30,30 @@ class MainActivity : AppCompatActivity() {
         setupRecyclerView()
 
         // Setup button navigation
-        setupButtonNavigation()
+        setupButtons()
+    }
+
+    override fun onItemClick(position: Int) {
+        val data = createData()
+        println(data[position])
+        val intent = Intent(this, Questions::class.java).apply {
+            putExtra("ID_QUIZ", position)
+        }
+        this.startActivity(intent)
     }
 
     /**
      * Set up the RecyclerView with the MenuQuizAdapter and layout manager.
      */
     private fun setupRecyclerView() {
-        recyclerView.adapter = MenuQuizAdapter(createData())
+        recyclerView.adapter = MenuQuizAdapter(createData(), this)
         recyclerView.layoutManager = LinearLayoutManager(this)
     }
 
     /**
      * Set up button navigation using the NavigationHandler.
      */
-    private fun setupButtonNavigation() {
+    private fun setupButtons() {
         val navigationHandler = NavigationHandler(this)
         navigationHandler.setupButtonNavigation(buttonHistorique, Historique::class.java)
     }

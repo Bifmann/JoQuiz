@@ -9,7 +9,7 @@ class Historique : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.historique)
 
-        val buttonRetourMenu : Button = findViewById(R.id.button_retourMenu)
+        val buttonRetourMenu: Button = findViewById(R.id.button_retourMenu)
         val navigationHandler = NavigationHandler(this)
         navigationHandler.setupButtonNavigation(buttonRetourMenu, MainActivity::class.java)
     }

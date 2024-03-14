@@ -3,7 +3,7 @@ package com.example.joquiz
 import android.content.Context
 import org.xmlpull.v1.XmlPullParser
 
-class QuizRepository (private val context: Context){
+class QuizRepository(private val context: Context) {
     private val quizList = mutableListOf<QuizList>()
 
     init {

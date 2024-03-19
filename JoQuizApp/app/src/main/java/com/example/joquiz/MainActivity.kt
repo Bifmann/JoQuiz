@@ -2,7 +2,6 @@ package com.example.joquiz
 
 import MenuQuizAdapter
 import RecyclerViewEvent
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -10,10 +9,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity(), RecyclerViewEvent {
+    val navigationHandler = NavigationHandler(this)
     private lateinit var recyclerView: RecyclerView
     private lateinit var buttonHistorique: Button
     private lateinit var quizRepository: QuizRepository
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,12 +33,7 @@ class MainActivity : AppCompatActivity(), RecyclerViewEvent {
     }
 
     override fun onItemClick(position: Int) {
-        val data = createData()
-        println(data[position])
-        val intent = Intent(this, Questions::class.java).apply {
-            putExtra("ID_QUIZ", position)
-        }
-        this.startActivity(intent)
+        navigationHandler.goToQuiz(this, position, 0)
     }
 
     /**

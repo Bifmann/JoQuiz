@@ -54,6 +54,7 @@ class MenuQuizAdapter(
         val quiz: QuizList = data[position] // Get the data model based on position.
 
         holder.quizName.text = quiz.title // Set the quiz name to the TextView.
+        println(quiz.title)
     }
 
     /**

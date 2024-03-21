@@ -24,15 +24,91 @@
         </questions>
     </quiz>
     <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <answer>Template</answer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
+        <title>SmashBros By gpt</title>
+        <question>
+            <text>Quel personnage a utilisé une épée comme arme principale?</text>
+            <trueAnswer>Link</trueAnswer>
+            <wrongAnswer1>Mario</wrongAnswer1>
+            <wrongAnswer2>Pikachu</wrongAnswer2>
+        </question>
+        <question>
+            <text>Qui est le créateur de la série Super Smash Bros.?</text>
+            <trueAnswer>Masahiro Sakurai</trueAnswer>
+            <wrongAnswer1>Shigeru Miyamoto</wrongAnswer1>
+            <wrongAnswer2>Hideo Kojima</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel stage est présent dans tous les jeux Smash Bros.?</text>
+            <trueAnswer>Battlefield</trueAnswer>
+            <wrongAnswer1>Pokemon Stadium</wrongAnswer1>
+            <wrongAnswer2>Final Destination</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel personnage est connu pour son puissant Falcon Punch?</text>
+            <trueAnswer>Captain Falcon</trueAnswer>
+            <wrongAnswer1>Fox</wrongAnswer1>
+            <wrongAnswer2>Samus</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel objet invoque un allié pour aider au combat?</text>
+            <trueAnswer>Assist Trophy</trueAnswer>
+            <wrongAnswer1>Pokeball</wrongAnswer1>
+            <wrongAnswer2>Smash Ball</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel personnage est le principal antagoniste de la série "Metroid"?</text>
+            <trueAnswer>Ridley</trueAnswer>
+            <wrongAnswer1>Ganondorf</wrongAnswer1>
+            <wrongAnswer2>Bowser</wrongAnswer2>
+        </question>
+        <question>
+            <text>Qui est le frère de Mario?</text>
+            <trueAnswer>Luigi</trueAnswer>
+            <wrongAnswer1>Wario</wrongAnswer1>
+            <wrongAnswer2>Yoshi</wrongAnswer2>
+        </question>
+        <question>
+            <text>Dans quel jeu Smash Bros. Ultimate Bayonetta a-t-elle fait sa première apparition?</text>
+            <trueAnswer>Smash Bros. for Wii U/3DS</trueAnswer>
+            <wrongAnswer1>Smash Bros. Brawl</wrongAnswer1>
+            <wrongAnswer2>Smash Bros. Melee</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quelle est la série d'origine de Cloud Strife?</text>
+            <trueAnswer>Final Fantasy</trueAnswer>
+            <wrongAnswer1>Fire Emblem</wrongAnswer1>
+            <wrongAnswer2>Dragon Quest</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel personnage peut se transformer en Sheik?</text>
+            <trueAnswer>Zelda</trueAnswer>
+            <wrongAnswer1>Peach</wrongAnswer1>
+            <wrongAnswer2>Samus</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel est le but principal du mode "World of Light"?</text>
+            <trueAnswer>Sauver les combattants possédés</trueAnswer>
+            <wrongAnswer1>Gagner des trophées</wrongAnswer1>
+            <wrongAnswer2>Collecter des pièces</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel personnage utilise une attaque nommée "PK Fire"?</text>
+            <trueAnswer>Ness</trueAnswer>
+            <wrongAnswer1>Mario</wrongAnswer1>
+            <wrongAnswer2>Link</wrongAnswer2>
+        </question>
+        <question>
+            <text>Qui est le héros du temps?</text>
+            <trueAnswer>Link</trueAnswer>
+            <wrongAnswer1>Marth</wrongAnswer1>
+            <wrongAnswer2>Pit</wrongAnswer2>
+        </question>
+        <question>
+            <text>Quel est le stage basé sur un jeu "Animal Crossing"?</text>
+            <trueAnswer>Smashville</trueAnswer>
+            <wrongAnswer1>Mushroom Kingdom</wrongAnswer1>
+            <wrongAnswer2>Corneria</wrongAnswer2>
+        </question>
     </quiz>
     <quiz>
         <title>Template</title>

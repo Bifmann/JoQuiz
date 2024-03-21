@@ -8,4 +8,6 @@ class Resultat : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.resultat)
     }
+
+
 }

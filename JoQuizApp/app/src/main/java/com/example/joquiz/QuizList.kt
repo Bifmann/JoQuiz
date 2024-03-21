@@ -8,3 +8,4 @@ data class Question(
     val wrongAnswer1: String,
     val wrongAnswer2: String
 )
+

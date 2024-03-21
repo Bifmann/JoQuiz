@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), RecyclerViewEvent {
     }
 
     override fun onItemClick(position: Int) {
-        navigationHandler.goToQuiz(this, position, 0)
+        navigationHandler.goToFirstQuiz(this, position, 0)
     }
 
     /**

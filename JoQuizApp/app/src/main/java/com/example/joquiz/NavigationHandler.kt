@@ -33,8 +33,9 @@ class NavigationHandler(private val context: Context) {
         context.startActivity(intent)
     }
 
-    fun goToResult(context: Context, list: BooleanArray?) {
+    fun goToResult(context: Context,position: Int ,list: BooleanArray?) {
         val intent = Intent(context, Resultat::class.java).apply {
+            putExtra("ID_QUIZ", position)
             putExtra("LISTE_BOOLEAN_REPONSE", list)
 
             flags = Intent.FLAG_ACTIVITY_CLEAR_TOP

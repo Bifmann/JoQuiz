@@ -68,7 +68,7 @@
             <wrongAnswer2>Yoshi</wrongAnswer2>
         </question>
         <question>
-            <text>Dans quel jeu Smash Bros. Ultimate Bayonetta a-t-elle fait sa première apparition?</text>
+            <text>Dans quel jeu Smash Bros Bayonetta a-t-elle fait sa première apparition?</text>
             <trueAnswer>Smash Bros. for Wii U/3DS</trueAnswer>
             <wrongAnswer1>Smash Bros. Brawl</wrongAnswer1>
             <wrongAnswer2>Smash Bros. Melee</wrongAnswer2>

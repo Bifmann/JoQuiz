@@ -44,8 +44,7 @@ class Questions : AppCompatActivity() {
     fun setupButtons() {
         val idQuiz = intent.getIntExtra("ID_QUIZ", -1)
         val idQuestion = intent.getIntExtra("ID_QUESTION", -1)
-        val listeBooleansMutable =
-            intent.getBooleanArrayExtra("LISTE_BOOLEAN_REPONSE")?.toMutableList() ?: mutableListOf()
+        val listeBooleansMutable = intent.getBooleanArrayExtra("LISTE_BOOLEAN_REPONSE")?.toMutableList() ?: mutableListOf()
         val navigationHandler = NavigationHandler(this)
 
         val quizRepository = QuizRepository(this)
@@ -68,15 +67,15 @@ class Questions : AppCompatActivity() {
         button.setOnClickListener {
             println(quiz.questions.size)
             println(idQuestion)
-            liste.add(buttonReponse1.tag == true)
+            liste.add(button.tag == true)
             val updatedList = liste.toBooleanArray()
 
-            if (idQuestion != quiz.questions.size -1) {
+            if (idQuestion != quiz.questions.size - 1) {
                 println(updatedList.contentToString())
                 nav.QuizHandler(this, idQuiz, idQuestion + 1, updatedList)
             } else {
                 println(updatedList.contentToString())
-                nav.goToResult(this, liste.toBooleanArray())
+                nav.goToResult(this, idQuiz, updatedList)
             }
         }
     }

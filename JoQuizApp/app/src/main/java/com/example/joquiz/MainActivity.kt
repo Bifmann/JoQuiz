@@ -8,7 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
+
+
+
 class MainActivity : AppCompatActivity(), RecyclerViewEvent {
+
     val navigationHandler = NavigationHandler(this)
     private lateinit var recyclerView: RecyclerView
     private lateinit var buttonHistorique: Button

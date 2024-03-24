@@ -1,9 +1,13 @@
 package com.example.joquiz
 
+import kotlinx.coroutines.launch
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 
 class Questions : AppCompatActivity() {
@@ -22,6 +26,7 @@ class Questions : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.questions)
         val quizRepository = QuizRepository(this)
+
         val data = quizRepository.getAllQuizzes()
         val quiz: QuizList = data[idQuiz] // Get the data model based on position.
 
@@ -47,6 +52,7 @@ class Questions : AppCompatActivity() {
         val listeBooleansMutable = intent.getBooleanArrayExtra("LISTE_BOOLEAN_REPONSE")?.toMutableList() ?: mutableListOf()
         val navigationHandler = NavigationHandler(this)
 
+
         val quizRepository = QuizRepository(this)
         val data = quizRepository.getAllQuizzes()
         val quiz: QuizList = data[idQuiz]
@@ -62,8 +68,11 @@ class Questions : AppCompatActivity() {
         liste: MutableList<Boolean>,
         idQuiz: Int,
         idQuestion: Int,
-        nav: NavigationHandler
+        nav: NavigationHandler,
     ) {
+        val db = AppDatabase.getDatabase(this)
+        val scoreDao = db.scoreDao()
+
         button.setOnClickListener {
             println(quiz.questions.size)
             println(idQuestion)
@@ -74,11 +83,27 @@ class Questions : AppCompatActivity() {
                 println(updatedList.contentToString())
                 nav.QuizHandler(this, idQuiz, idQuestion + 1, updatedList)
             } else {
+                val trueCount = updatedList.count { it }
+                val newScore = ScoreResult(title = quiz.title, score = trueCount)
+
+                // Lancer une coroutine pour l'opération d'insertion de base de données
+                lifecycleScope.launch {
+                    // Exécuter l'insertion dans Dispatchers.IO
+                    withContext(Dispatchers.IO) {
+                        scoreDao.insert(newScore)
+                    }
+                    val allScores = withContext(Dispatchers.IO) {
+                        scoreDao.getAllScores()
+                    }
+                    println(allScores)
+                }
+
                 println(updatedList.contentToString())
                 nav.goToResult(this, idQuiz, updatedList)
             }
         }
     }
+
 
     fun buttonOrder(quiz: QuizList, idQuestion: Int) {
         // Création d'une liste de paires (String, Boolean) où le Boolean indique si c'est la bonne réponse

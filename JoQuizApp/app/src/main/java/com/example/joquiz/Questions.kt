@@ -46,7 +46,7 @@ class Questions : AppCompatActivity() {
         setupButtons()
     }
 
-    fun setupButtons() {
+    private fun setupButtons() {
         val idQuiz = intent.getIntExtra("ID_QUIZ", -1)
         val idQuestion = intent.getIntExtra("ID_QUESTION", -1)
         val listeBooleansMutable = intent.getBooleanArrayExtra("LISTE_BOOLEAN_REPONSE")?.toMutableList() ?: mutableListOf()
@@ -62,7 +62,7 @@ class Questions : AppCompatActivity() {
         nextQuiz(quiz, buttonReponse3, listeBooleansMutable, idQuiz, idQuestion, navigationHandler)
     }
 
-    fun nextQuiz(
+    private fun nextQuiz(
         quiz: QuizList,
         button: Button,
         liste: MutableList<Boolean>,
@@ -97,7 +97,6 @@ class Questions : AppCompatActivity() {
                     }
                     println(allScores)
                 }
-
                 println(updatedList.contentToString())
                 nav.goToResult(this, idQuiz, updatedList)
             }
@@ -105,7 +104,7 @@ class Questions : AppCompatActivity() {
     }
 
 
-    fun buttonOrder(quiz: QuizList, idQuestion: Int) {
+    private fun buttonOrder(quiz: QuizList, idQuestion: Int) {
         // Création d'une liste de paires (String, Boolean) où le Boolean indique si c'est la bonne réponse
         val questionsOrdre = listOf(
             Pair(quiz.questions[idQuestion].trueAnswer, true),

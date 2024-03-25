@@ -11,9 +11,3 @@ data class Question(
     val wrongAnswer2: String
 )
 
-@Entity(tableName = "score_table")
-data class Score(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    val title: String,
-    val score: Int
-)

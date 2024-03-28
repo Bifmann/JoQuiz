@@ -35,7 +35,7 @@ class Resultat : AppCompatActivity() {
 
 
         buttonRecommancer.setOnClickListener {
-            navigationHandler.goToFirstQuiz(this, idQuiz, 0)
+            navigationHandler.goToFirstQuiz(this, idQuiz)
         }
 
         navigationHandler.setupButtonNavigation(buttonRetourMenu, MainActivity::class.java)

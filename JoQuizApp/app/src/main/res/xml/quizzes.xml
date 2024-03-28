@@ -111,27 +111,198 @@
         </question>
     </quiz>
     <quiz>
-        <title>Template</title>
+        <title>Les Inconvénients de Discord</title>
         <questions>
             <question>
-                <text>Template</text>
-                <answer>Template</answer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
+                <text>Pourquoi certaines personnes considèrent-elles Discord comme non sécurisé ?
+                </text>
+                <trueAnswer>Manque de modération et présence de contenus inappropriés</trueAnswer>
+                <wrongAnswer1>Chiffrement de bout en bout par défaut</wrongAnswer1>
+                <wrongAnswer2>Impossible de rejoindre sans invitation</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel est un inconvénient majeur de Discord pour les utilisateurs soucieux de
+                    leur vie privée ?
+                </text>
+                <trueAnswer>Collecte et utilisation des données utilisateur</trueAnswer>
+                <wrongAnswer1>Interdiction totale de la publicité</wrongAnswer1>
+                <wrongAnswer2>Aucune sauvegarde des conversations</wrongAnswer2>
+            </question>
+            <question>
+                <text>En quoi l'interface utilisateur de Discord peut-elle être problématique pour
+                    les nouveaux utilisateurs ?
+                </text>
+                <trueAnswer>Peut être complexe et intimidante</trueAnswer>
+                <wrongAnswer1>Exclusivement textuelle, sans support vidéo</wrongAnswer1>
+                <wrongAnswer2>Manque de personnalisation</wrongAnswer2>
             </question>
         </questions>
     </quiz>
     <quiz>
-        <title>Template</title>
+        <title>Quiz sur Sakuya Izayoi</title>
         <questions>
             <question>
-                <text>Template</text>
-                <answer>Template</answer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
+                <text>Quel est le rôle de Sakuya Izayoi dans la série Touhou Project ?</text>
+                <trueAnswer>Majordome en chef de la Scarlet Devil Mansion</trueAnswer>
+                <wrongAnswer1>Gardienne de la Bibliothèque Magique</wrongAnswer1>
+                <wrongAnswer2>Prêtresse du Sanctuaire Hakurei</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quelle est la capacité spéciale de Sakuya Izayoi ?</text>
+                <trueAnswer>Manipulation du temps</trueAnswer>
+                <wrongAnswer1>Vol</wrongAnswer1>
+                <wrongAnswer2>Manipulation de la nature</wrongAnswer2>
+            </question>
+            <question>
+                <text>Dans quel jeu Touhou Sakuya Izayoi fait-elle sa première apparition ?</text>
+                <trueAnswer>The Embodiment of Scarlet Devil</trueAnswer>
+                <wrongAnswer1>Perfect Cherry Blossom</wrongAnswer1>
+                <wrongAnswer2>Imperishable Night</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quelle est l'arme de prédilection de Sakuya Izayoi ?</text>
+                <trueAnswer>Couteaux</trueAnswer>
+                <wrongAnswer1>Épée</wrongAnswer1>
+                <wrongAnswer2>Arc et flèches</wrongAnswer2>
             </question>
         </questions>
     </quiz>
+    <quiz>
+        <title>Quiz sur Undead Unluck</title>
+        <questions>
+            <question>
+                <text>Qui est le personnage principal féminin d'Undead Unluck ?</text>
+                <trueAnswer>Fuko Izumo</trueAnswer>
+                <wrongAnswer1>Nico</wrongAnswer1>
+                <wrongAnswer2>Shen</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel est le pouvoir unique de Fuko Izumo ?</text>
+                <trueAnswer>Porter malchance à quiconque la touche</trueAnswer>
+                <wrongAnswer1>Ressusciter les morts</wrongAnswer1>
+                <wrongAnswer2>Lire l'avenir</wrongAnswer2>
+            </question>
+            <question>
+                <text>Comment Andy, le co-protagoniste, est-il connu dans le manga ?</text>
+                <trueAnswer>Comme l'Undead</trueAnswer>
+                <wrongAnswer1>Comme l'Unbreakable</wrongAnswer1>
+                <wrongAnswer2>Comme l'Unseen</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel est l'objectif principal de l'Union, l'organisation dans Undead Unluck ?</text>
+                <trueAnswer>Combattre les Négateurs pour protéger le monde</trueAnswer>
+                <wrongAnswer1>Créer un monde où la mort n'existe pas</wrongAnswer1>
+                <wrongAnswer2>Assurer que les pouvoirs Un ne tombent pas entre de mauvaises mains
+                </wrongAnswer2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Quiz sur Spy × Family</title>
+        <questions>
+            <question>
+                <text>Quel est le nom de code de l'espion qui doit former une famille pour sa mission ?</text>
+                <trueAnswer>Twilight</trueAnswer>
+                <wrongAnswer1>Nightfall</wrongAnswer1>
+                <wrongAnswer2>Daybreak</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quelle est la particularité de la fille adoptée par Twilight pour sa mission ?</text>
+                <trueAnswer>Elle peut lire dans les pensées.</trueAnswer>
+                <wrongAnswer1>Elle peut devenir invisible.</wrongAnswer1>
+                <wrongAnswer2>Elle peut voler.</wrongAnswer2>
+            </question>
+            <question>
+                <text>Qui est Yor Forger dans la série ?</text>
+                <trueAnswer>Une tueuse à gages qui devient la fausse épouse de Twilight.</trueAnswer>
+                <wrongAnswer1>Une enseignante à l'école d'Anya.</wrongAnswer1>
+                <wrongAnswer2>Une espionne d'une organisation rivale.</wrongAnswer2>
+            </question>
+            <question>
+                <text>Pourquoi Twilight doit-il former une famille ?</text>
+                <trueAnswer>Pour se rapprocher d'un politicien influent en infiltrant une école prestigieuse.</trueAnswer>
+                <wrongAnswer1>Pour changer d'identité et échapper à des ennemis.</wrongAnswer1>
+                <wrongAnswer2>Pour mener une vie normale et abandonner l'espionnage.</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel est le nom de l'école que Anya doit intégrer pour la mission de Twilight ?</text>
+                <trueAnswer>Eden Academy</trueAnswer>
+                <wrongAnswer1>Saint Lucia Academy</wrongAnswer1>
+                <wrongAnswer2>Westalis High</wrongAnswer2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Quiz sur Kotlin</title>
+        <questions>
+            <question>
+                <text>Quelle entreprise est derrière le développement de Kotlin ?</text>
+                <trueAnswer>JetBrains</trueAnswer>
+                <wrongAnswer1>Google</wrongAnswer1>
+                <wrongAnswer2>Microsoft</wrongAnswer2>
+            </question>
+            <question>
+                <text>En quelle année Kotlin a-t-il été officiellement lancé ?</text>
+                <trueAnswer>2011</trueAnswer>
+                <wrongAnswer1>2014</wrongAnswer1>
+                <wrongAnswer2>2016</wrongAnswer2>
+            </question>
+            <question>
+                <text>Pourquoi Kotlin est-il souvent préféré pour le développement d'applications Android ?</text>
+                <trueAnswer>Intercompatibilité avec Java et amélioration de la productivité</trueAnswer>
+                <wrongAnswer1>Exclusivité sur Android</wrongAnswer1>
+                <wrongAnswer2>Plus rapide que toutes les autres langages de programmation</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel est le mot-clé utilisé en Kotlin pour déclarer une variable immuable ?</text>
+                <trueAnswer>val</trueAnswer>
+                <wrongAnswer1>var</wrongAnswer1>
+                <wrongAnswer2>let</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quelle fonction Kotlin est automatiquement appelée lors de l'exécution d'un programme ?</text>
+                <trueAnswer>main</trueAnswer>
+                <wrongAnswer1>start</wrongAnswer1>
+                <wrongAnswer2>run</wrongAnswer2>
+            </question>
+        </questions>
+    </quiz>
+    <quiz>
+        <title>Quiz sur South Park</title>
+        <questions>
+            <question>
+                <text>Qui sont les créateurs de South Park ?</text>
+                <trueAnswer>Trey Parker et Matt Stone</trueAnswer>
+                <wrongAnswer1>Seth MacFarlane</wrongAnswer1>
+                <wrongAnswer2>Matt Groening</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel personnage est connu pour mourir dans de nombreux épisodes, surtout dans les premières saisons ?</text>
+                <trueAnswer>Kenny McCormick</trueAnswer>
+                <wrongAnswer1>Eric Cartman</wrongAnswer1>
+                <wrongAnswer2>Stan Marsh</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quelle ville fictive du Colorado sert de principal décor à la série ?</text>
+                <trueAnswer>South Park</trueAnswer>
+                <wrongAnswer1>Springfield</wrongAnswer1>
+                <wrongAnswer2>Quahog</wrongAnswer2>
+            </question>
+            <question>
+                <text>Quel personnage a été introduit comme le conseiller d'orientation de l'école, connu pour sa phrase "M'kay" ?</text>
+                <trueAnswer>Mr. Mackey</trueAnswer>
+                <wrongAnswer1>Mr. Garrison</wrongAnswer1>
+                <wrongAnswer2>Mr. Slave</wrongAnswer2>
+            </question>
+            <question>
+                <text>Dans quel épisode South Park critique-t-il la censure de ses propres images de Mahomet ?</text>
+                <trueAnswer>200 et 201</trueAnswer>
+                <wrongAnswer1>Imaginationland</wrongAnswer1>
+                <wrongAnswer2>Trapped in the Closet</wrongAnswer2>
+            </question>
+        </questions>
+    </quiz>
+
     <quiz>
         <title>Template</title>
         <questions>
@@ -143,91 +314,4 @@
             </question>
         </questions>
     </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz>
-    <quiz>
-        <title>Template</title>
-        <questions>
-            <question>
-                <text>Template</text>
-                <trueAnswer>Template</trueAnswer>
-                <wrongAnswer1>Template</wrongAnswer1>
-                <wrongAnswer2>Template</wrongAnswer2>
-            </question>
-        </questions>
-    </quiz><quiz>
-    <title>hihi</title>
-    <questions>
-        <question>
-            <text>Template</text>
-            <trueAnswer>Template</trueAnswer>
-            <wrongAnswer1>Template</wrongAnswer1>
-            <wrongAnswer2>Template</wrongAnswer2>
-        </question>
-    </questions>
-</quiz>
 </quizzes>

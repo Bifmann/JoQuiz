@@ -30,9 +30,12 @@ class HistoriqueAdapter(private val context: Context, private val data: List<Sco
 
     //Updates the values on each row
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-        holder.titreHistoriqueQuiz.text = data[position].title
-        holder.scoreHistoriqueQuiz.text = data[position].score.toString()
-    }
+        // Calculer l'index inversé
+        val invertedIndex = data.size - 1 - position
 
+        // Utiliser l'index inversé pour accéder aux éléments de la liste
+        holder.titreHistoriqueQuiz.text = data[invertedIndex].title
+        holder.scoreHistoriqueQuiz.text = data[invertedIndex].score.toString()
+    }
 
 }

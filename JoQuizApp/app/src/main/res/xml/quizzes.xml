@@ -114,24 +114,19 @@
         <title>Les Inconvénients de Discord</title>
         <questions>
             <question>
-                <text>Pourquoi certaines personnes considèrent-elles Discord comme non sécurisé ?
-                </text>
+                <text>Pourquoi certaines personnes considèrent-elles Discord comme non sécurisé ?</text>
                 <trueAnswer>Manque de modération et présence de contenus inappropriés</trueAnswer>
                 <wrongAnswer1>Chiffrement de bout en bout par défaut</wrongAnswer1>
                 <wrongAnswer2>Impossible de rejoindre sans invitation</wrongAnswer2>
             </question>
             <question>
-                <text>Quel est un inconvénient majeur de Discord pour les utilisateurs soucieux de
-                    leur vie privée ?
-                </text>
+                <text>Quel est un inconvénient majeur de Discord pour les utilisateurs soucieux de leur vie privée ?</text>
                 <trueAnswer>Collecte et utilisation des données utilisateur</trueAnswer>
                 <wrongAnswer1>Interdiction totale de la publicité</wrongAnswer1>
                 <wrongAnswer2>Aucune sauvegarde des conversations</wrongAnswer2>
             </question>
             <question>
-                <text>En quoi l'interface utilisateur de Discord peut-elle être problématique pour
-                    les nouveaux utilisateurs ?
-                </text>
+                <text>En quoi l'interface utilisateur de Discord peut-elle être problématique pour les nouveaux utilisateurs ?</text>
                 <trueAnswer>Peut être complexe et intimidante</trueAnswer>
                 <wrongAnswer1>Exclusivement textuelle, sans support vidéo</wrongAnswer1>
                 <wrongAnswer2>Manque de personnalisation</wrongAnswer2>
@@ -302,7 +297,6 @@
             </question>
         </questions>
     </quiz>
-
     <quiz>
         <title>Template</title>
         <questions>

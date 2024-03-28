@@ -17,10 +17,10 @@ class Resultat : AppCompatActivity() {
         val listeResultatBoolean = intent.getBooleanArrayExtra("LISTE_BOOLEAN_REPONSE")?.toMutableList() ?: mutableListOf()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.resultat)
-
         buttonRecommancer = findViewById(R.id.button_recommancer)
         buttonVoirReponse = findViewById(R.id.button_voirReponse)
         buttonRetourMenu = findViewById(R.id.button_retourMenu)
+
         score = findViewById(R.id.textview_Score)
         val textScore = "score : ${countTrueValues(listeResultatBoolean)} / ${listeResultatBoolean.count()}"
         score.text = textScore
@@ -44,6 +44,4 @@ class Resultat : AppCompatActivity() {
     private fun countTrueValues(booleanArray: MutableList<Boolean>): Int {
         return booleanArray.count { it }
     }
-
-
 }
